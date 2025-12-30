@@ -1,0 +1,43 @@
+
+Problem Statement: Credit card fraud poses significant financial and reputational risks to financial 
+institutions and customers. 
+Detecting fraudulent transactions accurately and early is important to:
+
+- Help minimise financial losses.
+
+- Protect customers from unauthorised charges.
+
+- Improve trust in digital payment systems. 
+
+With this project, the goal was to build a predictive model taht can identify fraudulent transactions with
+high reliability while minimizing false positives especially during the festive season. 
+
+Dataset description:
+- The dataset contains credit card transaction records, where each row represents a transaction.
+- Target VariableL
+  - 1 -> Fraudulent transaction
+  - 0 - > Legit transaction
+
+Features:
+The dataset has transaction-related and customer-related features like:
+- Transaction amount
+- Customer income and spending behaviour
+
+Data Preprocessing and Exploration:
+Preprocessing  steps:
+- Cleaning and standardising column names
+- Checking for missing values
+- Separating features and target variable
+- Visualising the distribution of fraudulent vs non-fraudulent transactions to understand class
+imbalance.
+
+Machine Learning Pipeline:
+1. Train-Test Split:
+  - The dataset is split into training and testing sets to ensure unbiased evaluation on unseen data.
+
+2. Models Implemented:
+Logistic Regression: I used this as a baseline classification model and I chose it for:
+- Interpretability
+- Efficiency
+- Suitability for binary classification problems
+   
