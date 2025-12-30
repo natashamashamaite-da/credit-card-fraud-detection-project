@@ -1,0 +1,45 @@
+Model Evaluation:
+Because this is a classification problem, performance is evaluated using 5 metrics that are
+appropriate for imbalanced datasets.
+
+Evaluation Metrics:
+
+- Accuracy
+
+- Precision
+
+- Recall
+
+- F1-score
+
+- Confusion matrix
+
+Recall helps to assess how well fraud is detected.
+
+Precision helps to assess how many flagged transactions are actually fraudulent.
+
+Possible real-world Applications:
+The model could be used for:
+
+- Credit card fraud detection systems.
+
+-Financial risk management
+
+- Transaction monitoring and alert systems.
+
+Future Improvements:
+
+1. I could address class imbalance using techniques such as:
+-SMOTE
+
+-Class weighting
+
+2. Try advanced models like:
+-Gradient Boosting
+
+- XGBoost
+
+3. Add cross-validation for improved reliability
+
+4. Perform threshold tuning to optimise precision-recall trade-offs. 
+
